@@ -1,0 +1,10 @@
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\bin\Debug\CRE.exe
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\bin\Debug\CRE.pdb
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\bin\Debug\CRE.xml
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.login.resources
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.Resources.resources
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.vbproj.GenerateResource.Cache
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.exe
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.xml
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.pdb
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.menuForm.resources

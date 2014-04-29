@@ -1,0 +1,10 @@
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\bin\Release\CRE.exe
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\bin\Release\CRE.pdb
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\bin\Release\CRE.xml
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Release\CRE.login.resources
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Release\CRE.menu.resources
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Release\CRE.Resources.resources
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Release\CRE.vbproj.GenerateResource.Cache
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Release\CRE.exe
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Release\CRE.xml
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Release\CRE.pdb
