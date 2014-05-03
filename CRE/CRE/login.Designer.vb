@@ -22,10 +22,15 @@ Partial Class login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.username = New System.Windows.Forms.TextBox()
         Me.password = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.closeBtn = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.closeBtn, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -72,12 +77,34 @@ Partial Class login
         Me.password.TabIndex = 2
         Me.password.Text = "Password"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(250, 72)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(300, 210)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 5
+        Me.PictureBox1.TabStop = False
+        '
+        'closeBtn
+        '
+        Me.closeBtn.Image = Global.CRE.My.Resources.Resources.closeBtn
+        Me.closeBtn.Location = New System.Drawing.Point(763, 0)
+        Me.closeBtn.Name = "closeBtn"
+        Me.closeBtn.Size = New System.Drawing.Size(25, 30)
+        Me.closeBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.closeBtn.TabIndex = 4
+        Me.closeBtn.TabStop = False
+        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(800, 730)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.closeBtn)
         Me.Controls.Add(Me.password)
         Me.Controls.Add(Me.username)
         Me.Controls.Add(Me.Button1)
@@ -86,6 +113,8 @@ Partial Class login
         Me.Name = "login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bem-vindo"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.closeBtn, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -94,5 +123,7 @@ Partial Class login
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents username As System.Windows.Forms.TextBox
     Friend WithEvents password As System.Windows.Forms.TextBox
+    Friend WithEvents closeBtn As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 
 End Class

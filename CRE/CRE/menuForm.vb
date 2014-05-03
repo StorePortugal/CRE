@@ -1,11 +1,14 @@
 ﻿Public Class menuForm
 
-    Public isLoggedIn As Boolean = False
-
     Private Sub menu_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        If isLoggedIn = False Then
-            login.Show()
-        End If
     End Sub
 
+    Private Sub closeBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles closeBtn.Click
+        End
+    End Sub
+
+    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
+        livros.Show()
+        Me.Hide()
+    End Sub
 End Class

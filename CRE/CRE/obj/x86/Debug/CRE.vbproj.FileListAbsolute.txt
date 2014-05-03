@@ -8,3 +8,5 @@ C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.exe
 C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.xml
 C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.pdb
 C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.menuForm.resources
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.livros.resources
+C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.credits.resources
