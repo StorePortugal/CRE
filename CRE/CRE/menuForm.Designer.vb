@@ -64,6 +64,7 @@ Partial Class menuForm
         '
         'PictureBox1
         '
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = Global.CRE.My.Resources.Resources.livrosBtn
         Me.PictureBox1.Location = New System.Drawing.Point(-6, 160)
         Me.PictureBox1.Name = "PictureBox1"

@@ -75,6 +75,11 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="creDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="livros.Designer.vb">
       <DependentUpon>livros.vb</DependentUpon>
     </Compile>
@@ -138,6 +143,19 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="creDataSet.xsc">
+      <DependentUpon>creDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="creDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>creDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="creDataSet.xss">
+      <DependentUpon>creDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -160,6 +178,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="res\slidefadein.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cre.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

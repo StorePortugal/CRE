@@ -25,10 +25,10 @@ Partial Class login
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.username = New System.Windows.Forms.TextBox()
-        Me.password = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.closeBtn = New System.Windows.Forms.PictureBox()
+        Me.username = New System.Windows.Forms.TextBox()
+        Me.password = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.closeBtn, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -48,39 +48,17 @@ Partial Class login
         '
         Me.Button1.Font = New System.Drawing.Font("Calibri Light", 12.0!)
         Me.Button1.ForeColor = System.Drawing.Color.DimGray
-        Me.Button1.Location = New System.Drawing.Point(310, 386)
+        Me.Button1.Location = New System.Drawing.Point(310, 466)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(180, 30)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'username
-        '
-        Me.username.Font = New System.Drawing.Font("Calibri Light", 14.0!)
-        Me.username.ForeColor = System.Drawing.Color.SlateGray
-        Me.username.Location = New System.Drawing.Point(310, 314)
-        Me.username.Multiline = True
-        Me.username.Name = "username"
-        Me.username.Size = New System.Drawing.Size(180, 30)
-        Me.username.TabIndex = 2
-        Me.username.Text = "Username"
-        '
-        'password
-        '
-        Me.password.Font = New System.Drawing.Font("Calibri Light", 14.0!)
-        Me.password.ForeColor = System.Drawing.Color.SlateGray
-        Me.password.Location = New System.Drawing.Point(310, 350)
-        Me.password.Multiline = True
-        Me.password.Name = "password"
-        Me.password.Size = New System.Drawing.Size(180, 30)
-        Me.password.TabIndex = 2
-        Me.password.Text = "Password"
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(250, 72)
+        Me.PictureBox1.Location = New System.Drawing.Point(250, 103)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(300, 210)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -96,6 +74,28 @@ Partial Class login
         Me.closeBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.closeBtn.TabIndex = 4
         Me.closeBtn.TabStop = False
+        '
+        'username
+        '
+        Me.username.Font = New System.Drawing.Font("Calibri Light", 14.0!)
+        Me.username.ForeColor = System.Drawing.Color.SlateGray
+        Me.username.Location = New System.Drawing.Point(310, 394)
+        Me.username.Multiline = True
+        Me.username.Name = "username"
+        Me.username.Size = New System.Drawing.Size(180, 30)
+        Me.username.TabIndex = 2
+        Me.username.Text = "Username"
+        '
+        'password
+        '
+        Me.password.Font = New System.Drawing.Font("Calibri Light", 14.0!)
+        Me.password.ForeColor = System.Drawing.Color.SlateGray
+        Me.password.Location = New System.Drawing.Point(310, 430)
+        Me.password.Multiline = True
+        Me.password.Name = "password"
+        Me.password.Size = New System.Drawing.Size(180, 30)
+        Me.password.TabIndex = 2
+        Me.password.Text = "Password"
         '
         'login
         '
@@ -121,9 +121,9 @@ Partial Class login
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents username As System.Windows.Forms.TextBox
-    Friend WithEvents password As System.Windows.Forms.TextBox
     Friend WithEvents closeBtn As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents username As System.Windows.Forms.TextBox
+    Friend WithEvents password As System.Windows.Forms.TextBox
 
 End Class

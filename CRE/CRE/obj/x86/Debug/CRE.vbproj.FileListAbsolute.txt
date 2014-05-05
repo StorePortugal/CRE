@@ -10,3 +10,17 @@ C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.pdb
 C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.menuForm.resources
 C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.livros.resources
 C:\Users\P3t3r_000\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.credits.resources
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.exe
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.xml
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.pdb
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\bin\Debug\CRE.exe
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\bin\Debug\CRE.pdb
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\bin\Debug\CRE.xml
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.livros.resources
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.login.resources
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.menuForm.resources
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.Resources.resources
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.credits.resources
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\obj\x86\Debug\CRE.vbproj.GenerateResource.Cache
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\bin\Debug\cre.accdb
+C:\Users\Convidado\Documents\GitHub\CRE\CRE\CRE\bin\Debug\CRE.exe.config
