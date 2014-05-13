@@ -3,47 +3,19 @@
 
 
     Private Sub login_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'CreDataSet.users' table. You can move, or remove it, as needed.
+        'Me.UsersTableAdapter.Fill(Me.CreDataSet.users)
 
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         'I figured how to make comments in VB! Yeey
         'Temporarely redirecting to menuForm
-        Dim strName As String
-        Dim strPass As String
-        Dim pesan As String 'pesan is Indonesian and it is the same with Message in english
 
+        menuForm.Show()
+        Me.Close()
 
-        UsrData.Refresh()
-        strName = txtUsr.Text
-        strPass = txtPwd.Text
-
-
-        Do Until UsrData.Recordset.EOF
-            If UsrData.Recordset.Fields(username).Value = strName And UsrData.Recordset.Fields(password).Value = strPass Then
-                Me.Hide()
-                frmEmployee.Show()    'if the login succeed then form that contain employee info shown
-                Exit Sub
-
-            Else
-                UsrData.Recordset.MoveNext()
-            End If
-
-        Loop
-
-pesan = MsgBox(Invalid password, try again!, vbOKCancel,”Understanding What Is”)
-        If (pesan = 1) Then
-            Login_form.Show()
-txtName.Text = 
-txtpassword = 
-
-        Else
-            End
-        End If
-
-
-    End Sub
-
+        Me.UsersBindingSource.Filter = "username = '" & Me.username.Text & "'"
     End Sub
 
     Private Sub closeBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles closeBtn.Click

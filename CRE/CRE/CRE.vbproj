@@ -99,7 +99,6 @@
       <DependentUpon>login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menuFormLogin.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -168,13 +167,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\button.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="res\closeBtn.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="res\livrosBtn.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\slidefadein.gif" />
@@ -183,6 +176,12 @@
     <Content Include="cre.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="res\button.png" />
+    <None Include="res\livrosBtn.png" />
+    <None Include="res\blueBar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
